@@ -73,7 +73,7 @@ export default async function EventDetailsPage({ params }: PageProps) {
   if (event.category === 'academic') accentColor = '#64ffda';
 
   return (
-    <div className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-hidden font-tt-lakes">
+    <div className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-x-hidden font-tt-lakes">
       
       {/* ── BACKGROUND DECORATIONS ── */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
@@ -199,7 +199,7 @@ export default async function EventDetailsPage({ params }: PageProps) {
               &lt;&lt; BACK TO EVENTS
             </Link>
 
-            {event.registrationLink ? (
+            {/* {event.registrationLink ? (
               <a 
                 href={event.registrationLink}
                 target="_blank"
@@ -215,7 +215,7 @@ export default async function EventDetailsPage({ params }: PageProps) {
               <span className="text-gray-500 font-mono text-xs tracking-widest uppercase">
                 REGISTRATION CLOSED // WALK-IN ONLY
               </span>
-            )}
+            )} */}
           </div>
 
         </div>

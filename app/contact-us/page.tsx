@@ -33,10 +33,10 @@ export const metadata: Metadata = {
 
 export default function ContactUsPage() {
   return (
-    <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 overflow-hidden font-tt-lakes flex flex-col">
+    <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-32 pb-24 overflow-x-hidden font-tt-lakes flex flex-col items-center justify-center">
       
       {/* ── BACKGROUND HUD DECORATIONS ── */}
-      <div className="absolute inset-0 pointer-events-none z-0 h-[50vh] overflow-hidden" aria-hidden="true">
+      <div className="absolute inset-0 pointer-events-none z-0 h-full overflow-hidden" aria-hidden="true">
         {/* Subtle grid */}
         <div 
           className="absolute inset-0 opacity-10"
@@ -57,33 +57,9 @@ export default function ContactUsPage() {
         <BlueCircle className="left-[5%] bottom-[15%] rotate-45 opacity-35" />
       </div>
 
-      {/* ── HERO HEADER ── */}
-      <div className="max-w-4xl mx-auto text-center px-6 relative z-10 flex flex-col items-center mb-16">
-        <p className="text-[10px] sm:text-xs font-mono tracking-[0.4em] text-[#7B61FF] uppercase mb-4">
-          COMMUNICATION // SECURE_PORT_OPEN
-        </p>
-
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black uppercase tracking-[0.15em] text-white font-mechsuit mb-6 drop-shadow-[0_0_15px_rgba(255,255,255,0.15)]">
-          <DecryptedText 
-            text="CONTACT US" 
-            animateOn="view" 
-            speed={75} 
-            sequential
-          />
-        </h1>
-
-        <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-[#7B61FF] to-transparent mb-6" />
-        
-        <p className="text-gray-400 text-xs sm:text-sm tracking-wider max-w-xl leading-relaxed uppercase">
-          Establish synchronous connections. Coordinate queries or register inquiries directly through Jadavpur University IT Department live portals.
-        </p>
-      </div>
-
-      {/* ── WHITE CONTACT SECTION ── */}
-      <div className="bg-white py-20 px-6 md:px-12 w-full mt-auto relative z-10 border-t border-black">
-        <div className="max-w-7xl mx-auto">
-          <ContactForm />
-        </div>
+      {/* ── MAIN CONTACT CONTENT ── */}
+      <div className="max-w-7xl w-full px-6 md:px-12 relative z-10 mt-auto mb-auto">
+        <ContactForm />
       </div>
 
     </main>

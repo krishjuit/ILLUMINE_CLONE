@@ -6,7 +6,7 @@ export const committeeMembers: CommitteeMember[] = [
     name: 'Prof. Bhaskar Sardar',
     designation: 'Faculty Advisor',
     department: 'Faculty',
-    image: '/photos/professors/faculty-vc.png',
+    image: '',
     email: 'bhaskar.sardar@jadavpuruniversity.in',
     priority: 100,
   },
@@ -15,7 +15,7 @@ export const committeeMembers: CommitteeMember[] = [
     name: 'Dr. Parama Bhaumik',
     designation: 'Faculty Co-Advisor',
     department: 'Faculty',
-    image: '/photos/professors/faculty-provc.png',
+    image: '',
     priority: 95,
   },
   {

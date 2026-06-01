@@ -14,7 +14,7 @@ export const events: Event[] = [
       'Maintain decorum during official addresses.',
     ],
     coordinators: [
-      { name: 'Prof. Bhaskar Sardar', email: 'bhaskar.sardar@jadavpuruniversity.in' },
+      { name:'Organising Committee' },
     ],
     featured: true,
     eventDate: 'December 22, 2026 - 10:00 AM',
@@ -29,7 +29,7 @@ export const events: Event[] = [
     image: '/svg/Card.svg',
     rules: [],
     coordinators: [
-      { name: 'Dr. Parama Bhaumik' },
+      {name:'Organising Committee'},
     ],
     featured: false,
     eventDate: 'December 22, 2026 - 10:30 AM',
@@ -42,14 +42,13 @@ export const events: Event[] = [
     shortDescription: 'An adrenaline-fueled clash on the field for the championship.',
     description: 'Watch the legends of the past take on the stars of the present in a high-intensity football showdown at the main campus ground. Prepare for a display of skill, legacy, and department pride.',
     image: '/svg/Card.svg',
-    rules: [
-      'Standard 9-a-side rules apply.',
-      'Rolling substitutions are allowed.',
-      'Match duration: 25 minutes per half.',
-    ],
+    // rules: [
+    //   'Standard 9-a-side rules apply.',
+    //   'Rolling substitutions are allowed.',
+    //   'Match duration: 25 minutes per half.',
+    // ],
     coordinators: [
-      { name: 'Arijit Ghosh', phone: '+91 98765 43210' },
-      { name: 'Rohan Sen', phone: '+91 87654 32109' },
+      { name: 'Organising Committee'}
     ],
     registrationLink: 'https://docs.google.com/forms/d/e/football',
     featured: true,
@@ -67,7 +66,7 @@ export const events: Event[] = [
       'Valid food coupon / RSVP registration card required at entry.',
     ],
     coordinators: [
-      { name: 'Food Management Committee' },
+      {  name: 'Organising Committee' },
     ],
     featured: false,
     eventDate: 'December 22, 2026 - 1:00 PM',
@@ -80,15 +79,15 @@ export const events: Event[] = [
     shortDescription: 'A thrilling cricket showdown between rival batches.',
     description: 'An exciting 10-over cricket clash between the alumni XI and the student XI. Come support your batch in this classic campus cricket rivalry.',
     image: '/svg/Card.svg',
-    rules: [
-      '10 overs per innings.',
-      'Maximum 2 overs per bowler.',
-      'Standard local tournament rules apply.',
-    ],
+    // rules: [
+    //   '10 overs per innings.',
+    //   'Maximum 2 overs per bowler.',
+    //   'Standard local tournament rules apply.',
+    // ],
     coordinators: [
       { name: 'Sourav Datta', phone: '+91 76543 21098' },
     ],
-    registrationLink: 'https://docs.google.com/forms/d/e/cricket',
+    // registrationLink: 'https://docs.google.com/forms/d/e/cricket',
     featured: false,
     eventDate: 'December 22, 2026 - 3:00 PM',
   },
@@ -105,7 +104,7 @@ export const events: Event[] = [
       'Props must be pre-approved.',
     ],
     coordinators: [
-      { name: 'Anushka Roy', email: 'anushka.it.ju@gmail.com' },
+      {  name: 'Organising Committee' },
     ],
     featured: false,
     eventDate: 'December 22, 2026 - 5:00 PM',
@@ -120,7 +119,7 @@ export const events: Event[] = [
     image: '/svg/Card.svg',
     rules: [],
     coordinators: [
-      { name: 'Dr. Tohida Rehman' },
+      {  name: 'Organising Committee' },
     ],
     featured: true,
     eventDate: 'December 22, 2026 - 6:30 PM',
@@ -135,7 +134,7 @@ export const events: Event[] = [
     image: '/svg/Card.svg',
     rules: [],
     coordinators: [
-      { name: 'Reunion Core Committee' },
+      { name: 'Organising Committee'},
     ],
     featured: true,
     eventDate: 'December 22, 2026 - 7:30 PM',
@@ -153,7 +152,7 @@ export const events: Event[] = [
       'Follow ground safety instructions.',
     ],
     coordinators: [
-      { name: 'Student Volunteers Group' },
+      {  name: 'Organising Committee' },
     ],
     featured: true,
     eventDate: 'December 22, 2026 - 9:00 PM',

@@ -72,7 +72,7 @@ export default function Navbar() {
         {/* Animated Gradient Scanline (Top) */}
         <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#7B61FF] to-transparent animate-pulse opacity-70" />
 
-        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 h-20 flex items-center justify-between relative">
+        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 h-20 grid grid-cols-[auto_1fr_auto] items-center">
           
           {/* 1. LOGO */}
          <div className="flex items-center gap-2">
@@ -93,7 +93,7 @@ export default function Navbar() {
 </div>
 
           {/* 2. DESKTOP LINKS */}
-          <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-2 w-max z-10">
+          <div className="hidden lg:flex justify-center items-center gap-2">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
