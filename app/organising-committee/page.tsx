@@ -37,7 +37,7 @@ export default function OrganisingCommitteePage() {
   const departments = getDepartmentsFromMembers(members);
 
   return (
-    <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-hidden font-tt-lakes">
+    <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-x-hidden font-tt-lakes">
       
       {/* ── BACKGROUND HUD DECORATIONS ── */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
@@ -76,7 +76,7 @@ export default function OrganisingCommitteePage() {
             System // Live_Directory_Channels
           </p>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-[0.1em] text-white font-mechsuit mb-4 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-[0.1em] text-white font-mechsuit mb-4 leading-normal sm:leading-relaxed drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">
             <DecryptedText 
               text="ORGANISING COMMITTEE" 
               animateOn="view" 

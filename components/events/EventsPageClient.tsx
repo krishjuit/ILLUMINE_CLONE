@@ -28,7 +28,7 @@ export default function EventsPageClient() {
   }, [allEvents]);
 
   return (
-    <div className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-hidden font-tt-lakes">
+    <div className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-x-hidden font-tt-lakes">
       
       {/* ── BACKGROUND HUD DECORATIONS ── */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
@@ -84,7 +84,7 @@ export default function EventsPageClient() {
         </div>
 
         {/* ── FEATURED SECTION ── */}
-        {featuredEvents.length > 0 && selectedCategory === 'all' && (
+        {/* {featuredEvents.length > 0 && selectedCategory === 'all' && (
           <div className="mb-20">
             <div className="flex items-center gap-4 mb-8">
               <span className="w-2 h-2 bg-[#ffe94d] rounded-full animate-ping" />
@@ -101,14 +101,14 @@ export default function EventsPageClient() {
               ))}
             </div>
           </div>
-        )}
+        )} */}
 
         {/* ── TIMETABLE / LISTING ── */}
         <div className="mt-12">
           <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-8">
             <h2 className="text-lg md:text-xl font-bold tracking-[0.3em] uppercase text-white font-mono flex items-center gap-2">
               <span>{"// SCHEDULE_LOG"}</span>
-              <span className="text-xs text-gray-500 font-normal">({filteredEvents.length} items loaded)</span>
+              {/* <span className="text-xs text-gray-500 font-normal">({filteredEvents.length} items loaded)</span> */}
             </h2>
           </div>
 

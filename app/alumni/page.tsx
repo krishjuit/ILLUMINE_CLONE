@@ -3,6 +3,7 @@ import React from 'react';
 import { getAlumni } from '@/data/alumniData';
 import AlumniHero from '@/components/alumni/AlumniHero';
 import AlumniList from '@/components/alumni/AlumniList';
+import ComingSoon from '@/components/ui/ComingSoon';
 
 export const metadata: Metadata = {
   title: 'Alumni Directory | Illumine 2026',
@@ -32,11 +33,12 @@ export default function AlumniPage() {
   const profiles = getAlumni();
 
   return (
-    <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-hidden font-tt-lakes">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 flex flex-col gap-6">
-        <AlumniHero />
-        <AlumniList profiles={profiles} />
-      </div>
-    </main>
+    // <main className="relative min-h-screen bg-[#070707] text-[#d9fff6] pt-28 pb-20 overflow-hidden font-tt-lakes">
+    //   <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 flex flex-col gap-6">
+    //     <AlumniHero />
+    //     <AlumniList profiles={profiles} />
+    //   </div>
+    // </main>
+    <ComingSoon></ComingSoon>
   );
 }

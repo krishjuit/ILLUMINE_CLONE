@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="flex flex-col bg-[#070707] text-[#d9fff6]">
-      <AboutHero />
+      {/* <AboutHero /> */}
       <AboutIllumine />
       <AboutDepartment />
       <AboutJubilee />
