@@ -8,7 +8,6 @@ import Vector5 from "@/assets/coming_soon_svgs/svg/Vector5";
 import Group95 from "@/assets/coming_soon_svgs/svg/Group95";
 import Rectangle70 from "@/assets/coming_soon_svgs/svg/Rectangle70";
 import DecryptedText from "@/components/ui/DecryptedText";
-
 const Cross = ({
   style,
   className,
